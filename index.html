@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" width="500px">
+        <tr>
+            <th>Product Name</th>
+            <th>Qty</th>
+            <th>Unit Prize</th>
+            <th>Prize</th>
+        </tr>
+        <tr>
+            <td>Bat</td>
+            <td><input type="number" id="bat-qt" onmouseleave="add()"></td>
+            <td id="bat-unit">1000</td>
+            <td id="bat-prize"></td>
+            <!-- <button onclick="add()">click</button> -->
+        </tr>
+        <tr>
+            <td>Ball</td>
+            <td><input type="number" id="ball-qt" onmouseleave="add()"></td>
+            <td id="ball-unit">20</td>
+            <td id="ball-prize"></td>
+        </tr>
+        <tr>
+            <td>Stump Set</td>
+            <td><input type="number" id="stump-qt" onmouseleave="add()"></td>
+            <td id="stump-unit">500</td>
+            <td id="stump-prize"></td>
+        </tr>
+        <tr>
+            <td colspan="3"> Total</td>
+             
+            <td id="total"></td>
+        </tr>
+        <tr>
+            <td colspan="3">Tax 18%</td>
+            
+            <td id="tax"></td>
+        </tr>
+        <tr>
+            <td colspan="3">Grand Total</td>
+            
+            <td id="grand"></td>
+        </tr>
+    </table>
+    <script src="table.js"></script>
+</body>
+</html>
